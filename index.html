@@ -82,7 +82,7 @@
         <div class="music" id="music">
             <center>
                 <div class="music-bg" style="background-image: url('asset/photo/music.jpg');"></div>
-                <audio controls autoplay>  
+                <audio id="myAudio" controls autoplay>   
                     <source src="asset/song.mp3" type="audio/mpeg">
                 </audio>
             </center>
@@ -93,6 +93,7 @@
     <script src="asset/bootstrap/js/bootstrap.bundle.min.js"></script>
     <script>
         var stateM = 0;
+        var x = document.getElementById("myAudio").autoplay;
 
         setInterval(()=>{
             document.getElementById('text-song').innerHTML += '.';
