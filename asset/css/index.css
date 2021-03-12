@@ -8,7 +8,7 @@
     margin: 0;
     padding: 0;
     transition: all .3s ease;
-    animation: yourAnimation 1s ease 0s normal none;
+    animation: yourAnimation 3s ease 0s normal none;
 }
 
 .container-index{
