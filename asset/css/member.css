@@ -13,6 +13,7 @@
 
 .container-member{
     background-color: #E6D1CF;
+    padding-bottom: 70px;
 }
 
 .nav{
@@ -101,12 +102,13 @@
 }
 
 .member-info{
-    margin-top: 30px;
     margin-left: 150px;
+    margin-top: 30px;
     color: #A5AAAB;
     text-align: justify;
-    width: 600px;
+    width: fit-content;
     cursor: pointer;
+    font-size: 16px;
 }
 
 .member-info:hover{
@@ -114,11 +116,11 @@
 }
 
 .member-contact{
-    margin-top: 30px;
     margin-left: 150px;
+    margin-top: 30px;
     display: grid;
     grid-template-columns: 1fr 1fr;
-    width: 600px;
+    /* width: 600px; */
 }
 
 .contact i{
@@ -136,4 +138,142 @@
     color: black;
     text-shadow: 1px 1px #fff;
     margin: 0 10px 10px 0;
+}
+
+@media only screen and (max-width: 1300px){
+    .member-style-1{
+        grid-template-columns: 384px 1fr;
+    }
+
+    .member-style-1-img-1{
+        width: 200px;
+    }
+    
+    .member-style-2-1-img{
+        width: 160px;
+    }
+
+    .member-info{
+        margin-left: 80px;
+
+    }
+    .member-contact{
+        margin-left: 80px;
+    }   
+}
+
+@media only screen and (max-width: 1200px){
+    .contact i{
+        font-size: 22px;
+    }
+
+    .contact{
+        font-size: 16px;
+    }
+
+    .member-info{
+        margin-left: 40px;
+
+    }
+    .member-contact{
+        margin-left: 40px;
+    } 
+}
+
+@media only screen and (max-width: 1100px){
+    .member-style-1{
+        margin: 20px 0px;
+        padding: 0 20px;
+        padding-top: 40px;
+        padding-bottom: 16px;
+        border-radius: 0;
+    }
+}
+
+@media only screen and (max-width: 920px){
+    .member-style-1{
+        margin: 0px;
+        padding: 0;
+        padding-top: 0;
+        padding-bottom: 0;
+        border-radius: 0;
+        grid-template-columns: 360px 1fr;
+    }
+
+    .member-style-1-img-1{
+        margin-right: 0;
+    }
+    
+    .member-style-2-1-img{
+        margin-bottom: 0;
+    }
+ 
+    .member-style-1-img-1{
+        height: 350px;
+    }
+
+    .contact:hover{
+        font-size: 18px;
+        margin: 0;
+    }
+
+    .member-info{
+        margin: 20px 15px;
+
+    }
+
+    .member-contact{
+        margin: 20px 15px;
+    } 
+
+    .member-information .member-name2:hover{
+        margin-top: -0px;
+    }
+
+}
+
+@media only screen and (max-width: 850px){
+    .member-style-1{
+        grid-template-columns:1fr;
+    }
+
+    .member-style-1-img-1{
+        width: 40vw;
+    }
+    
+    .member-style-2-1-img{
+        width: 40vw;
+    }
+
+    .member-information .member-name{
+        margin-left: 0;
+    }
+
+    .member-style-2-img{
+        display: none;
+    }
+
+    .member-style-1-img-1{
+        width: 100%;
+        height: 300px;
+        background-position: center;
+    }
+
+    .member-style-1-img{
+        grid-template-columns: 1fr;
+    }
+
+    .member-contact{
+        grid-template-columns: 1fr;
+    }
+
+    .contact{
+        margin-top: 13px;
+    }
+
+    .member-information .member-name2{
+        /* float: right; */
+        margin-left: 100px;
+        margin-bottom: 20px;
+    }
 }
