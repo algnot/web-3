@@ -65,11 +65,11 @@
 }
 
 .member-style-1-img-1:hover{
-    transform: scale(1.2);
+    transform: scale(1.1);
 }
 
 .member-style-2-1-img:hover{
-    transform: scale(1.2);
+    transform: scale(1.1);
 }
 
 .member-information .member-name{
@@ -92,9 +92,48 @@
     text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.2);
     color: #A5AAAB;
     cursor: pointer;
+    font-weight: 800;
 }
 
 .member-information .member-name2:hover{
     margin-top: -10px;
     text-shadow: 2px 2px #000;
+}
+
+.member-info{
+    margin-top: 30px;
+    margin-left: 150px;
+    color: #A5AAAB;
+    text-align: justify;
+    width: 600px;
+    cursor: pointer;
+}
+
+.member-info:hover{
+    text-shadow: 1px 1px #000;
+}
+
+.member-contact{
+    margin-top: 30px;
+    margin-left: 150px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    width: 600px;
+}
+
+.contact i{
+    font-size: 25px;
+}
+
+.contact{
+    font-size: 18px;
+    color: #fff;
+    cursor: pointer;
+}
+
+.contact:hover{
+    font-size: 20px;
+    color: black;
+    text-shadow: 1px 1px #fff;
+    margin: 0 10px 10px 0;
 }
