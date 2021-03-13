@@ -13,3 +13,50 @@
 .container-member{
     background-color: #E6D1CF;
 }
+
+.nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav-right{
+    color: #616575;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 800;
+    margin: 0 40px;
+}
+
+.member-style-1{
+    background-color: #616575;
+    display: grid;
+    grid-template-columns: 449px 1fr;
+    margin: 20px 40px;
+    padding: 0 60px;
+    padding-top: 40px;
+    padding-bottom: 16px;
+    border-radius: 30px;
+}
+
+.member-style-1-img{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.member-style-1-img-1{
+    width: 250px;
+    height: 374px;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-right: 24px;
+}
+
+.member-style-2-1-img{
+    width: 175px;
+    height:  175px;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-bottom: 24px;
+}
