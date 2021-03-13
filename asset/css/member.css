@@ -45,6 +45,7 @@
 .member-style-1-img{
     display: grid;
     grid-template-columns: 1fr 1fr;
+    z-index: 0;
 }
 
 .member-style-1-img-1{
@@ -71,6 +72,10 @@
 
 .member-style-2-1-img:hover{
     transform: scale(1.1);
+}
+
+.member-information{
+    z-index: 1;
 }
 
 .member-information .member-name{
@@ -137,6 +142,117 @@
     font-size: 20px;
     color: black;
     text-shadow: 1px 1px #fff;
+    margin: 0 10px 10px 0;
+}
+
+.member-style-2{
+    background-color: #F7F7F7;
+    display: grid;
+    grid-template-columns: 1fr 450px;
+    margin: 20px 40px;
+    padding: 0 60px;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    border-radius: 30px;
+    -webkit-box-shadow: 9px 0px 18px -3px rgba(0,0,0,0.20);
+    -moz-box-shadow: 9px 0px 18px -3px rgba(0,0,0,0.20);
+    box-shadow: 9px 0px 18px -3px rgba(0,0,0,0.20);
+}
+
+.member-style-2-text{
+    order: 1;
+    z-index: 1;
+}
+
+.member-style-2-img{
+    order: 2;
+    z-index: 0;
+}
+
+.member2-img-2{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 24px;
+    margin-top: 24px;
+}
+
+.member2-img-1{
+    width: 450px;
+    height: 187px;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.member2-img-2-1{
+    width: 213px;
+    height: 187px;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.member2-img-1:hover{
+    transform: scale(1.1);
+}
+
+.member2-img-2-1:hover{
+    transform: scale(1.1);
+}
+
+.member-name2-1{
+    text-align: right;
+    font-size: 50px;
+    margin-right: -40px;
+    text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.2);
+}
+
+.member2-information:hover{
+    text-shadow: 1px 1px #000;
+}
+
+.member-name2-2{
+    font-size: 20px;
+    color: #616575;
+    text-align: right;
+    text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.2);
+    font-weight: 800;
+    margin-right: 50px;
+}
+
+.member2-information{
+    margin: 0 40px;
+    margin-top: 60px;
+    text-align: justify;
+    color: #616575;
+}
+
+.member-name2-2:hover{
+    margin-top: -10px;
+    text-shadow: 2px 2px #000;
+}
+
+.member-contact2{
+    margin-left: 150px;
+    margin-top: 50px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.contact2 i{
+    font-size: 25px;
+}
+
+.contact2{
+    font-size: 18px;
+    color: #000;
+    cursor: pointer;
+}
+
+.contact2:hover{
+    font-size: 20px;
+    color: #616575;
+    text-shadow: 1px 1px #000;
     margin: 0 10px 10px 0;
 }
 
