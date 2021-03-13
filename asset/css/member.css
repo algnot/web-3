@@ -271,11 +271,31 @@
 
     .member-info{
         margin-left: 80px;
-
     }
+
     .member-contact{
         margin-left: 80px;
     }   
+
+    .member-style-2{
+        grid-template-columns: 1fr 385px; 
+    }
+
+    .member2-img-1{
+        width: 385px;
+    }
+
+    .member2-img-2-1{
+        width: 180.5px;
+    }
+
+    .member2-information{
+        margin-left: 20px;
+    }
+
+    .member-contact2{
+        margin-left: 40px;
+    }
 }
 
 @media only screen and (max-width: 1200px){
@@ -285,6 +305,22 @@
 
     .contact{
         font-size: 16px;
+    }
+
+    .contact2 i{
+        font-size: 22px;
+    }
+
+    .contact2{
+        font-size: 16px;
+    }
+
+    .member2-information{
+        margin-left: 10px;
+    }
+
+    .member-contact2{
+        margin-left: 20px;
     }
 
     .member-info{
@@ -299,11 +335,30 @@
 @media only screen and (max-width: 1100px){
     .member-style-1{
         margin: 20px 0px;
+        margin-bottom: 0;
         padding: 0 20px;
         padding-top: 40px;
         padding-bottom: 16px;
         border-radius: 0;
     }
+
+    .member-style-2{
+        margin: 20px 0px;
+        margin-bottom: 0;
+        padding: 0 20px;
+        padding-top: 40px;
+        padding-bottom: 16px;
+        border-radius: 0;
+    }
+
+    .member2-information{
+        margin-top: 40px;
+    }
+
+    .member-contact2{
+        margin-top: 30px;
+    }
+
 }
 
 @media only screen and (max-width: 920px){
@@ -346,6 +401,36 @@
         margin-top: -0px;
     }
 
+    .member-style-2{
+        margin: 0px;
+        padding: 0;
+        padding-top: 0;
+        padding-bottom: 0;
+        border-radius: 0;
+        grid-template-columns: 1fr 360px;
+    }
+
+    .member2-img-1{
+        width: 360px;
+    }
+
+    .member2-img-2{
+        margin-top: 0;
+    }
+
+    .member2-img-2{
+        gap: 0;
+    }
+
+    .member2-information{
+        margin: 30px 10px;
+    }
+
+    .member-contact2{
+        margin: 0;
+        margin-left: 50px;
+    }
+
 }
 
 @media only screen and (max-width: 850px){
@@ -366,7 +451,7 @@
         margin-top: -38px;
     }
 
-    .member-style-2-img{
+    .member-style-1-img .member-style-2-img{
         display: none;
     }
 
@@ -408,6 +493,61 @@
     }
 
     .contact:hover{
+        font-size: 16px;
+        margin-top: 13px;
+    }
+    
+    .member-style-2{
+        grid-template-columns: 1fr;
+        padding-bottom: 30px;
+    }
+
+    .member-contact2{
+        grid-template-columns: 1fr;
+    }
+
+    .member2-img-2{
+        display: none;
+    }
+
+    .member2-img-1{
+        display: block;
+        width: 100vw;
+        height: 300px;
+    }
+
+    .member-style-2-img{
+        order: 1;
+    }
+
+    .member2-img-1:hover{
+        transform: scale(1);
+    }
+    
+    .member2-img-2-1:hover{
+        transform: scale(1);
+    }
+
+    .member-name2-1{
+        margin: 0;
+        margin-right: 45px;
+        margin-top: -40px;
+    }
+
+    .member-name2-2{
+        margin-right: 80px;
+    }
+
+    .member-contact2{
+        margin-left: 15px;
+    }
+
+    .contact2{
+        margin-top: 13px;
+        margin-left: 0;
+    }
+
+    .contact2:hover{
         font-size: 16px;
         margin-top: 13px;
     }
