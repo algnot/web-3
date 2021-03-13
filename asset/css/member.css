@@ -8,6 +8,7 @@
     margin: 0;
     padding: 0;
     transition: all .5s ease;
+    font-family: 'Montserrat', sans-serif;
 }
 
 .container-member{
@@ -22,7 +23,6 @@
 
 .nav-right{
     color: #616575;
-    font-family: 'Montserrat', sans-serif;
     font-weight: 800;
     margin: 0 40px;
 }
@@ -36,6 +36,9 @@
     padding-top: 40px;
     padding-bottom: 16px;
     border-radius: 30px;
+    -webkit-box-shadow: 9px 0px 18px -3px rgba(0,0,0,0.20);
+    -moz-box-shadow: 9px 0px 18px -3px rgba(0,0,0,0.20);
+    box-shadow: 9px 0px 18px -3px rgba(0,0,0,0.20);
 }
 
 .member-style-1-img{
@@ -59,4 +62,39 @@
     background-size: cover;
     background-repeat: no-repeat;
     margin-bottom: 24px;
+}
+
+.member-style-1-img-1:hover{
+    transform: scale(1.2);
+}
+
+.member-style-2-1-img:hover{
+    transform: scale(1.2);
+}
+
+.member-information .member-name{
+    font-size: 50px;
+    margin-left: -50px;
+    text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.2);
+}
+
+.member-information .member-name:hover{
+    margin-top: 0px;
+    font-size: 60px;
+    margin-left: -60px;
+    text-shadow: 2px 2px #000;
+    margin-bottom: -20px;
+}
+
+.member-information .member-name2{
+    font-size: 20px;
+    margin-left: 200px;
+    text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.2);
+    color: #A5AAAB;
+    cursor: pointer;
+}
+
+.member-information .member-name2:hover{
+    margin-top: -10px;
+    text-shadow: 2px 2px #000;
 }
