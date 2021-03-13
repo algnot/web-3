@@ -247,6 +247,7 @@
 
     .member-information .member-name{
         margin-left: 0;
+        margin-top: -38px;
     }
 
     .member-style-2-img{
@@ -275,5 +276,23 @@
         /* float: right; */
         margin-left: 100px;
         margin-bottom: 20px;
+    }
+
+    .member-style-1-img-1:hover{
+        transform: scale(1);
+    }
+    
+    .member-style-2-1-img:hover{
+        transform: scale(1);
+    }
+
+    .member-information .member-name:hover{
+        margin: 0;
+        margin-top: -38px;
+    }
+
+    .contact:hover{
+        font-size: 16px;
+        margin-top: 13px;
     }
 }
