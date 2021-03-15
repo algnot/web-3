@@ -74,6 +74,15 @@
                 document.getElementById('title').innerHTML = 'The outsider | members';
             }
         }
+
+        function loadUser(id){
+            load('member.html','root');
+            window.location.hash=id;
+            setTimeout(()=>{
+                var elmnt = document.getElementById(id);
+                elmnt.scrollIntoView();
+            },500);
+        }
     </script>
 </body>
 </html>
